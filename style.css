@@ -1,0 +1,31 @@
+.cpt_simpleMenuContainer {
+    margin:0 0 10px 0;
+}
+.cpt_simpleMenuContainer * {
+    font-family: "Open Sans";
+}
+.cpt_simpleMenuTitle{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.cpt_simpleMenu {
+    list-style-type:none !important;
+    margin:0 !important;
+    padding:0 !important;
+}
+.cpt_simpleMenu li {
+
+}
+.cpt_simpleMenu li a {
+    color:#000 !important;
+    text-decoration: none !important;
+    font-weight: normal !important;
+    border:none !important;
+    font-family: "Open Sans" !important;
+    font-weight: 100 !important;
+    font-size: .9em;
+}
+.cpt_simpleMenu li a:hover {
+    color:#C59D5F !important;
+    font-weight: bold !important;
+}
