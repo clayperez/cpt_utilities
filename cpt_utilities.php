@@ -53,4 +53,11 @@ wp_enqueue_style('cpt_utilities_style', plugin_dir_url( __FILE__ ) . "style.css"
     }
     add_shortcode( 'cpt_simpleMenu', 'cpt_returnSimpleMenu');
 
+    function cpt_div($atts, $content = null){
+        extract($atts, EXTR_PREFIX_SAME, "cpt");
+        $content = do_shortcode($content);
+        return "<div style='$style' class='$class'>$content</div>";
+    }
+    add_shortcode( 'div', 'cpt_div');
+
 ?>
